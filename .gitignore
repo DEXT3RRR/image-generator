@@ -1,0 +1,16 @@
+# Data files
+data/raw/
+data/processed/
+
+# Model outputs
+outputs/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# System files
+.DS_Store
