@@ -44,19 +44,6 @@ for img in test_data :
   
 
  
-# resize = transforms.Compose([
-#     transforms.Resize((128,128)),
-#  ])
 
-# print(train_data[0])
-# train_data_img = read_image(train_data[0])
-# sample_img = resize(train_data_img)
-# sample_img_float = sample_img.float() / 255.0
-
-# save_dir = Path("data/processed/test_output")
-# save_dir.mkdir(parents=True, exist_ok=True)
-# save_path = save_dir / "sample_img.jpg"
-
-# save_image(sample_img_float, str(save_path))
 
 
